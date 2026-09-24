@@ -3,6 +3,7 @@
 ## Usage de l'IA
 
 IA utilisée pour m'assister a remplir les premiers ( # POST /trips/search) et # TripSummary ainsi que pour quelques données comme les date-time ect
+Pour quelques corriections de contenu (mineures)
 
 
 
