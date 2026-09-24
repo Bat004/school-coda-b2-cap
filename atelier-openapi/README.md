@@ -1,5 +1,12 @@
 # CATAPULTE Connect — Contrat d'API
 
+## Usage de l'IA
+
+IA utilisée pour m'assister a remplir les premiers ( # POST /trips/search) et # TripSummary ainsi que pour quelques données comme les date-time ect
+
+
+
+
 Module **CAP — Concevoir une API REST**. Coda Dijon, B2.
 
 L'Office National des Trajectoires Balistiques vous confie la conception du contrat

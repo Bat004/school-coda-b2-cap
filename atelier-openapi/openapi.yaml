@@ -742,5 +742,26 @@ components:
     # CartItem
     #   Une ligne de panier : un lancer et un nombre de places.
 
+    CartItem:
+      type: object
+      description: Une ligne de panier associant un lancer sélectionné à un nombre de places.
+      required: [id, trip, passengers, subtotal]
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: 9a8b7c6d-5e4f-3a2b-1c0d-e9f8a7b6c5d4
+        trip:
+          $ref: '#/components/schemas/TripSummary'
+        passengers:
+          type: integer
+          minimum: 1
+          description: Nombre de places réservées pour ce lancer.
+          example: 2
+        subtotal:
+          type: number
+          format: float
+          description: Sous-total calculé par le serveur (prix x places).
+          example: 60.00
     # Ticket
     #   Un droit à embarquer sur un lancer, émis au paiement. Un par place.
